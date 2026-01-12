@@ -43,7 +43,6 @@ function clearImage() {
     text.style.color = "#666";
 }
 
-// Optional: Add event listener for Enter key on file input
 document.getElementById('imageUpload').addEventListener('change', function() {
     if (this.files && this.files[0]) {
         uploadImage();
